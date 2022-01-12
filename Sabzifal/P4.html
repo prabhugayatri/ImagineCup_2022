@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sabzifal</title>
+        <meta charset="utf-8">
+    </head>
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <h3 style="text-align: right;"><a href="P1.html" target="_self">Home</a></h3>
+<!--Login-->
+    <form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <h2><img src="Img-3.jpg" alt="User Login" font="Arial" style="color:rgb(231, 212, 212)" class="avatar"></h2>
+    </div>
+  
+    <div class="container">
+      <label for="uname" style="color:rgb(231, 212, 212);"><b>Username</b> </label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw" style="color:rgb(231, 212, 212);"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="color:rgb(231, 212, 212);"> Remember me
+      </label>
+    </div>
+  
+    <div class="container">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Login</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form> 
+
+  <!--Signup-->
+  <form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h2 font="Arial" style="color:rgb(231, 212, 212)">Sign Up</h2>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+  
+      <label for="email" font="Arial" style="color:rgb(231, 212, 212)"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw" font="Arial" style="color:rgb(231, 212, 212)"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat" font="Arial" style="color:rgb(231, 212, 212)"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" font="Arial" style="color:rgb(231, 212, 212)"> Remember me
+      </label>
+  
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form> 
+</body>
+</html>
